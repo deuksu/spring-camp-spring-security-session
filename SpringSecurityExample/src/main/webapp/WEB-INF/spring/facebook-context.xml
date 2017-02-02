@@ -12,10 +12,15 @@
 	<util:properties id="facebookProp">
 		<prop key="facebook.user-authorization-uri">https://www.facebook.com/dialog/oauth</prop>
 		<prop key="facebook.access-token-uri">https://graph.facebook.com/oauth/access_token</prop>
-		<prop key="facebook.client-id">259029247575988</prop>
-		<prop key="facebook.client-secret">21ddd987ade4a61411e7a3863e0ebe8f</prop>
+		<prop key="facebook.client-id">367206086969761</prop>
+		<prop key="facebook.client-secret">91c2c32b2b4a6d826023929b804105bf</prop>
 		<prop key="facebook.profile-uri">https://graph.facebook.com/me</prop>
 	</util:properties>
+	
+	<util:map id="facebookMap" key-type="java.lang.String" value-type="java.lang.String">
+		<entry key="facebook.user-authorization-uri" value="https://www.facebook.com/dialog/oauth"/>
+	</util:map>
+	
 	
 	<!-- Facebook OAuth 2.0 Client Setup -->
 	<oauth:resource id="facebook" type="authorization_code"

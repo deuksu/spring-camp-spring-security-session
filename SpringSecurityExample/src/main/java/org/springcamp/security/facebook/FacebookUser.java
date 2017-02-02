@@ -9,7 +9,7 @@ import org.codehaus.jackson.map.annotate.JsonDeserialize;
  * @author skplanet
  *
  */
-@JsonDeserialize(using = FacebookUserDeserializer.class)
+//@JsonDeserialize(using = FacebookUserDeserializer.class)
 public class FacebookUser implements Serializable{
     private static final long serialVersionUID = 1L;
     private String id;
