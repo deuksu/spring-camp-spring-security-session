@@ -1,6 +1,7 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+# mvn project ignore
+.settings/
+/target/
+/bin/
+/logs/
+.classpath
+.project
